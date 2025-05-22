@@ -8,33 +8,119 @@
 </head>
 <body>
     <header>
+        <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
         <h1>Práticas Agrícolas: A Força do Campo no Sul do Brasil</h1>
-        <nav>
+        <nav aria-label="Navegação Principal">
             <ul>
-                <li><a href="#culturas">Principais Culturas</a></li>
-                <li><a href="#tecnicas">Técnicas de Manejo</a></li>
-                <li><a href="#pecuaria">Pecuária e Laticínios</a></li>
+                <li><a href="culturas.html">Principais Culturas</a></li>
+                <li><a href="tecnicas.html">Técnicas de Manejo</a></li>
+                <li><a href="pecuaria.html">Pecuária e Laticínios</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="culturas" class="agriculture-section">
-            <h2>Principais Culturas: O Que Brota da Nossa Terra</h2>
+    <main id="main-content">
+        <section class="intro-section agriculture-section">
+            <h2 id="intro-heading">Descubra a Essência da Agricultura no Sul</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>O Sul do Brasil, composto pelos estados do Rio Grande do Sul, Santa Catarina e Paraná, é uma região de imensa relevância para a agricultura e pecuária do país. Sua diversidade climática e de solos, aliada à dedicação de produtores rurais e ao constante investimento em tecnologia, transformou a região em um dos maiores celeiros do Brasil.</p>
+                    <p>Neste site, exploraremos os pilares que sustentam a força do campo sulista: as principais culturas cultivadas, as técnicas de manejo inovadoras que garantem sustentabilidade e produtividade, e a importância da pecuária e da produção de laticínios para a economia local e nacional. Conheça a base que alimenta o Brasil e impulsiona o desenvolvimento do setor rural.</p>
+                    <p>Selecione um dos setores abaixo para aprofundar seu conhecimento:</p>
+                </div>
+                <div class="image-gallery">
+                    <img src="https://via.placeholder.com/400x250?text=Panorama+Agrícola+Sul" alt="Panorama de lavouras e paisagens rurais no Sul do Brasil, simbolizando a agricultura vasta.">
+                    <img src="https://via.placeholder.com/400x250?text=Mãos+na+Terra" alt="Mãos de um agricultor segurando terra fértil, simbolizando o cuidado com o solo.">
+                </div>
+            </div>
+            <div class="link-sections">
+                <a href="culturas.html" class="sector-link">Principais Culturas</a>
+                <a href="tecnicas.html" class="sector-link">Técnicas de Manejo</a>
+                <a href="pecuaria.html" class="sector-link">Pecuária e Laticínios</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Práticas Agrícolas do Sul do Brasil. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais Culturas - Práticas Agrícolas do Sul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+        <h1>Principais Culturas: O Que Brota da Nossa Terra</h1>
+        <nav aria-label="Navegação do Setor de Culturas">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="culturas.html" aria-current="page">Principais Culturas</a></li>
+                <li><a href="tecnicas.html">Técnicas de Manejo</a></li>
+                <li><a href="pecuaria.html">Pecuária e Laticínios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="agriculture-section">
+            <h2 id="section-heading-culturas">Visão Geral das Culturas do Sul</h2>
             <div class="content-wrapper">
                 <div class="text-content">
                     <p>O Sul do Brasil é um dos maiores celeiros do país, com uma diversidade de culturas que são a base da sua economia e alimentação. A região se destaca pela produção de grãos, frutas e, em algumas áreas, pela viticultura. A dedicação e o conhecimento dos produtores rurais são essenciais para a alta produtividade e qualidade dos alimentos.</p>
                     <p>O destino dessas produções é abastecer o mercado interno e externo, contribuindo significativamente para a balança comercial brasileira.</p>
                 </div>
                 <div class="image-gallery">
-                    <img src="https://via.placeholder.com/400x250?text=Lavouras+de+Soja" alt="Vasta lavoura de soja no Sul do Brasil">
-                    <img src="https://via.placeholder.com/400x250?text=Plantação+de+Milho" alt="Plantação de milho com grãos maduros">
+                    <img src="https://via.placeholder.com/400x250?text=Vasta+Lavoura+de+Soja" alt="Vasta lavoura de soja no Sul do Brasil, com tratores trabalhando ao fundo.">
+                    <img src="https://via.placeholder.com/400x250?text=Parreiras+de+Uva+e+Colheita" alt="Close-up de cachos de uva madura em parreiras, prontos para a colheita.">
                 </div>
             </div>
-            <h3>Destaques:</h3>
-            <ul>
-                <li>**Soja:** Principal cultura da região, especialmente no Paraná, Rio Grande do Sul e Santa Catarina. É a base para a produção de óleo, farelo e diversos outros produtos.</li>
-                <li>**Milho:** Fundamental para a alimentação animal e humana, cultivado em rotação com a soja para otimizar o uso do solo.</li>
-                <li>**Trigo:** Importante cultura de inverno, usada para a produção de farinha e derivados. O Sul é o maior produtor de trigo do Brasil.</li>
-                <li>**Arroz:** No Rio Grande do Sul, o arroz irrigado é uma cultura de grande relevância, com sistemas de plantio e colheita altamente especializados.</li>
-                <li>**Uva:** Nas regiões serranas, como a Serra Gaúcha, o cultivo da uva é a base para a indústria de vinhos, espumantes e sucos, com destaque para as
+
+            <h3 id="soja-milho">Soja e Milho: Gigantes do Campo</h3>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>A soja e o milho são as culturas de maior destaque na região, especialmente no Paraná e Rio Grande do Sul. A adoção de tecnologias como o plantio direto e a agricultura de precisão são amplamente utilizadas para otimizar a produção e conservar o solo. A soja é essencial para a produção de óleo, farelo (usado na ração animal) e diversos outros produtos.</p>
+                    <p>O milho, por sua vez, é fundamental para a alimentação animal (especialmente aves e suínos) e humana, sendo frequentemente cultivado em rotação com a soja para otimizar o uso do solo e quebrar ciclos de pragas e doenças. Ambas as culturas representam a base da produção de grãos sulista, com grande impacto econômico.</p>
+                </div>
+                <div class="image-gallery">
+                    <img src="https://via.placeholder.com/400x250?text=Campo+de+Soja" alt="Campo de soja verde sob o sol, mostrando o crescimento das plantas.">
+                    <img src="https://via.placeholder.com/400x250?text=Colheita+de+Milho" alt="Colheitadeira moderna trabalhando em uma lavoura de milho durante a colheita.">
+                </div>
+            </div>
+
+            <h3 id="trigo-arroz">Trigo e Arroz: Cerealistas de Inverno e Verão</h3>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>O **trigo** é uma importante cultura de inverno no Sul, especialmente no Rio Grande do Sul e Paraná. É utilizado principalmente para a produção de farinha e derivados, sendo o Sul o maior produtor de trigo do Brasil. Seu cultivo exige atenção às condições climáticas e ao manejo de doenças específicas.</p>
+                    <p>No Rio Grande do Sul, o cultivo de **arroz** irrigado é uma das bases da economia agrícola, com técnicas específicas de manejo da água e do solo. Os sistemas de irrigação e a tecnologia embarcada garantem alta produtividade, fazendo do estado o principal produtor nacional de arroz. O destino é a mesa de milhões de brasileiros.</p>
+                </div>
+                <div class="image-gallery">
+                    <img src="https://via.placeholder.com/400x250?text=Campo+de+Trigo" alt="Campo de trigo dourado pronto para a colheita, com espigas ao vento.">
+                    <img src="https://via.placeholder.com/400x250?text=Lavoura+de+Arroz+Irrigada" alt="Lavoura de arroz alagada, mostrando o sistema de irrigação.">
+                </div>
+            </div>
+
+            <h3 id="frutas-vinho">Frutas e Vinho: Sabor e Tradição nas Serras</h3>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>Nas serras gaúchas e catarinenses, o cultivo da **uva** é uma prática ancestral, trazida pelos imigrantes italianos. A viticultura e a produção de vinhos, espumantes e sucos são atividades que movimentam o enoturismo e a economia local, com reconhecimento nacional e internacional pela qualidade dos produtos.</p>
+                    <p>Além da uva, a produção de **maçã** em Santa Catarina e no Rio Grande do Sul é expressiva, com pomares que utilizam técnicas avançadas de cultivo e armazenamento para garantir frutos de alta qualidade. Outras frutas como pêssego e caqui também têm produção relevante em menor escala, abastecendo o mercado regional e nacional.</p>
+                </div>
+                <div class="image-gallery">
+                    <img src="https://via.placeholder.com/400x250?text=Adega+de+Vinho" alt="Interior de uma adega com barris de vinho e garrafas envelhecendo.">
+                    <img src="https://via.placeholder.com/400x250?text=Colheita+de+Maçã" alt="Pessoa colhendo maçãs vermelhas de uma árvore em um pomar.">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Práticas Agrícolas do Sul do Brasil. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
