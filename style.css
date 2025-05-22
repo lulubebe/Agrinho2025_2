@@ -79,3 +79,7 @@ nav ul li a:hover {
     text-decoration: none;
     text-align: center;
 }
+.image-galery {
+     width: 300px;
+    height: 300px;
+}
