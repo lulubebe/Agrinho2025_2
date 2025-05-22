@@ -1,76 +1,61 @@
+/* Estilos Gerais */
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #5cb85c;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #5cb85c;
-    border-bottom: 2px solid #5cb85c;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-}
-
-#conexao-principal {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-#conexao-principal .imagem-container,
-#conexao-principal .texto-container {
-    flex: 1;
-}
-
-#conexao-principal img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-}
-
-#conexao-principal p {
+    background-color: #f9f4ec; /* Marrom claro muito suave */
+    color: #4a4a4a; /* Cinza escuro para o texto, que combina com marrom */
     line-height: 1.6;
 }
 
-.conteudo-secao {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-}
-
-.card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    width: calc(33% - 40px); /* Ajuste para o espaçamento */
-    box-sizing: border-box;
+header {
+    background-color: #6d4c41; /* Marrom escuro */
+    color: #fff;
+    padding: 1.5rem 0;
     text-align: center;
-    margin-bottom: 15px; /* Adicionado um pouco de margem inferior entre os cards */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-#atividades-agricolas .card {
-    width: calc(25% -
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e0b288; /* Marrom mais claro para o hover */
+}
+
+/* Estilos das Seções Agrícolas */
+.agriculture-section {
+    background-color: #ffffff; /* Fundo branco para as seções */
+    margin: 2.5rem auto;
+    padding: 3rem;
+    max-width: 950px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 5px solid #a1887f; /* Detalhe marrom no topo */
+}
+
+.agriculture-section h2 {
