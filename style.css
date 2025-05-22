@@ -59,3 +59,23 @@ nav ul li a:hover {
 }
 
 .agriculture-section h2 {
+    .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #e0b288; /* Cor que combine com seu tema */
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
